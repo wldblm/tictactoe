@@ -6,3 +6,13 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.col {
+ border: 1px solid black;
+ padding: .5em;
+}
+
+button{
+  margin: 1em;
+  padding: 1em;
+}

@@ -3,11 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>Tic tac toe</h1>
+      <div class="container">
+
+        <div class="row">
+          <div class="col">
+            <input type="text" id="A1" placeholder="A1" >
+          </div>
+          <div class="col">
+            <input type="text" id="A2" placeholder="A2"> 
+          </div>
+          <div class="col">
+            <input type="text" id="A3" placeholder="A3"> 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <input type="text" id="B1" placeholder="B1">
+            
+          </div>
+          <div class="col">
+            <input type="text" id="B2" placeholder="B2">
+            
+          </div>
+          <div class="col">
+            <input type="text" id="B3" placeholder="B3">
+            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <input type="text" id="C1" placeholder="C1">    
+          </div>
+          <div class="col">
+            <input type="text" id="C2" placeholder="C2">   
+          </div>
+          <div class="col">
+            <input type="text" id="C3" placeholder="C3">
+          </div>
+        </div>
+        <button type="button" id="play">play</button>
+        <button type="button" id="reset">reset</button>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
